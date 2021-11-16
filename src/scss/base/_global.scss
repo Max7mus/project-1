@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    position: absolute;
+    top: 732px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+footer{
+    background-color: #232323;
+}
+
+.container{
+    max-width: 1770px;
+    width: 100%;
+    margin: 0 auto;
+}

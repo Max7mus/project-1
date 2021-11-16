@@ -1,0 +1,61 @@
+.block{
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h3{
+        color: white;
+        font-family: 'Aleo', serif;
+        font-size: 33px;
+        font-weight: 400;
+    }
+
+    &__head{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        font-family: 'Aleo', serif;
+        padding-top: 35px;
+    }
+
+    &__content{
+        min-width: 1150px;
+        display: flex;
+        margin-bottom: 60px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+       
+    &__content-holder{
+        max-width: 670px;
+        color: white;
+        padding: 30px;
+        
+        
+        &_head{
+            font-size: 21px;
+            font-weight: 300;
+            font-family: 'Aleo', serif;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        
+        &_text{
+            font-size: 14px;
+            font-family: 'Aleo', serif;
+            font-weight: 300;
+            line-height: 23px;
+        }
+
+    }
+
+
+
+
+}

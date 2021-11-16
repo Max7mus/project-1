@@ -1,0 +1,62 @@
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+
+    h4{
+        color: white;
+        font-size: 23px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 50px;
+        margin-bottom: 10px;
+    } 
+        
+    &__text{
+        color: white;
+        font-size: 16px;
+        font-family: 'Aleo', serif;
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
+
+
+    &__list{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__list-item{
+        padding: 0 12px;
+        margin-bottom: 55px;
+    }
+
+    &__list-link{
+        color: white;
+
+        &_in{
+            color: rgb(51, 102, 255);
+        }
+
+        &_in:hover{
+            color: white;
+            transition: all ease-in-out 0.3s;
+        }
+    }
+
+    &__list-link:hover{
+        color: rgb(51, 102, 255);
+        transition: all ease-in-out 0.3s;
+    }
+
+    
+
+}

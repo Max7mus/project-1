@@ -1,0 +1,68 @@
+.book{
+    min-height: 700px;
+    padding: 0 12%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__content{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 540px;
+        min-height: 370px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 25px 15px;
+       
+        h3{
+            text-transform: uppercase;
+            font-family: 'Aleo', serif;
+            font-weight: 300;
+            }
+    }
+    
+
+    &__content-name{
+        width: 100%;
+        font-size: 21px;
+        font-weight: 300;
+        font-family: 'Aleo', serif;
+    }
+
+    &__content-text{
+        font-size: 16px;
+        font-family: 'Aleo', serif;
+        font-weight: 300;
+    }
+
+    &__content-btn{
+        font-size: 17px;
+        font-family: 'Aleo', serif;
+        text-transform: uppercase;
+        padding: 17px 50px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background: linear-gradient(45deg, rgb(51, 102, 255) 38%,
+         rgb(73, 107, 254) 35%);;
+    }
+
+    &__content-btn:hover{
+        background: linear-gradient(45deg, rgb(73, 107, 254) 40%, rgb(51, 102, 255) 26%);
+        transition: 0.3s;
+    }
+
+    &__bottom{
+        min-height: 700px;
+        padding: 0 12%;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+}

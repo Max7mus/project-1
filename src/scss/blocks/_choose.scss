@@ -1,0 +1,60 @@
+.content{
+    min-height: 680px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    &__holder{
+        max-width: 435px;
+        color: white;
+    }
+
+    &__head{
+        margin-bottom: 25px;
+        font-family: 'Aleo', serif;
+        font-size: 37px;
+        font-weight: 400;
+    }
+
+    &__holder-text{
+        padding:  0 0 24px;
+        font-size: 16px;
+        font-weight: 300;
+        font-family: 'Aleo', serif;
+    }
+
+    &__btn{
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Aleo', serif;
+        padding: 17px 38px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        background: linear-gradient(45deg, rgb(51, 102, 255) 38%,
+         rgb(73, 107, 254) 35%);        
+    }
+
+    &__btn:hover{
+        background: linear-gradient(45deg, rgb(73, 107, 254) 40%, rgb(51, 102, 255) 26%);
+        transition: 0.3s;
+    }
+
+}
+
+.image-holder{
+    min-width: 480px;
+    
+    &__house{
+    display: flex;
+    justify-content: flex-start; 
+    }
+
+    &__mountain{
+    display: flex;
+    justify-content: flex-end;
+    }
+}

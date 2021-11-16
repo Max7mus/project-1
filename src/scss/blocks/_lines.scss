@@ -1,0 +1,48 @@
+.blocks{
+    background-color: #232323;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &__content-head{
+        color: white;
+        font-size: 37px;
+        font-family: 'Aleo', serif;
+        margin-bottom: 50px;
+       
+    }
+
+        &__content{
+            padding: 50px 0;
+        }
+
+    &__content-img{
+        
+        &_lup{
+            text-align: center;
+            font-size: 55px;
+            color: rgb(51, 139, 255);
+            margin-bottom: 15px;
+            padding-top: 50px;
+        }
+
+        &_chk{
+            text-align: center;
+            font-size: 55px;
+            color: rgb(206, 17, 64);
+            margin-bottom: 15px;
+            padding-top: 50px;
+        }
+
+        &_thb{
+            text-align: center;
+            font-size: 55px;
+            color: rgb(16, 87, 180);
+            margin-bottom: 15px;
+            padding-top: 50px;
+        }
+
+    }
+
+}

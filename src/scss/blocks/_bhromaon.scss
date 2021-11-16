@@ -1,0 +1,42 @@
+.navigation{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 90px;
+    background-color: rgb(73, 107, 254);
+}
+
+.logo{
+    &__image{
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform: uppercase;
+        color: white;
+    }
+}
+
+.nav{
+
+    &__list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        min-width: 500px;
+        list-style: none;
+    }
+
+    &__item-link{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 14px;
+        font-family: 'Aleo', serif;
+    }
+
+    &__item-link:hover{
+        color: blue;
+        transition: all ease-in-out 0.3;
+
+    }
+}
